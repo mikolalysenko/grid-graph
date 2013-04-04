@@ -1,0 +1,34 @@
+{
+  "name": "grid-graph",
+  "version": "0.0.0",
+  "description": "Generates a grid shaped graph",
+  "main": "grid-graph.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "iota-array": "~0.0.0",
+    "poly-line": "~0.0.0",
+    "simplicial-cartesian-product": "~0.0.0",
+    "simplicial-complex": "~0.3.3"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/grid-graph.git"
+  },
+  "keywords": [
+    "grid",
+    "graph",
+    "generator"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "0f22df9cdce0b224a6c6ce9df845b588dce4c018"
+}
